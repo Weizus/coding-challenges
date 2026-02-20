@@ -6,9 +6,9 @@ class Solution:
         hash = dict()
         for num in nums:
             if (num in hash):
-                True
+                return True
             hash[num] = None
-        False
+        return False
 
 """ The idea here is to use a set
     If the number of elements in the set is equal to the number of elements in the List
